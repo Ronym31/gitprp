@@ -29,7 +29,7 @@ app.post("/save", async (req,res)=>{
         res.status(200).send({data: userData});
     } catch(err) {
         console.log(err);
-        res.status(500).send("Some Error");
+        res.status(500).send(err+"Some Error");
     }
 });
 
