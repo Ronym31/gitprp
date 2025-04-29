@@ -95,4 +95,5 @@ app.get("/findstudent", async (req,res)=>{
 
 app.listen(4000, ()=>{
     console.log("server started and again");
+    console.log("Listening on 4000 port")
 })
